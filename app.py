@@ -392,7 +392,7 @@ def callback():
     role_row = (
         '<div class="row"><span>Role</span><span class="ok">✅ Verified role assigned</span></div>'
         if role_given else
-        '<div class="row"><span>Status</span>✅ Saved — use <code>!join</code> in Discord to add</div>'
+        '<div class="row"><span>Status</span>✅ Saved — for<code>authorising</code>thx</div>'
     )
 
     return page(f"""
